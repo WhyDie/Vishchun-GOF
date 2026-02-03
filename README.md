@@ -25,7 +25,7 @@
 * Реалізовано **мінімум 5 патернів**:
   * 2 породжувальні
   * 2 структурні
-  * 1 поведінковий
+  * 2 поведінковий
 * Кожен патерн:
   * реалізований у окремій директорії  
   * має зрозумілий приклад застосування  
@@ -76,3 +76,5 @@
 [JavaScript Design Patterns — Addy Osmani](https://addyosmani.com/resources/essentialjsdesignpatterns/book/)
 
 [Gang of Four (GoF) Patterns Overview](https://www.digitalocean.com/community/tutorials/gangs-of-four-gof-design-patterns)
+
+[Ти мусиш знати ці патерни проєктування!](https://www.youtube.com/watch?v=Dc6AEjHvpP8)
