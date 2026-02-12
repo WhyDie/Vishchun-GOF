@@ -1,0 +1,12 @@
+import { ConcreteCreatorA } from "./ConcreteCreatorA.js";
+import { ConcreteCreatorB } from "./ConcreteCreatorB.js";
+const creatorA = new ConcreteCreatorA();
+console.log(creatorA.someOperation());
+const creatorB = new ConcreteCreatorB();
+console.log(creatorB.someOperation());
+export { Product } from "./Product.js";
+export { Creator } from "./Creator.js";
+export { ConcreteProductA } from "./ConcreteProductA.js";
+export { ConcreteProductB } from "./ConcreteProductB.js";
+export { ConcreteCreatorA } from "./ConcreteCreatorA.js";
+export { ConcreteCreatorB } from "./ConcreteCreatorB.js";

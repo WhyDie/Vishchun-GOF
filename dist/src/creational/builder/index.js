@@ -1,0 +1,11 @@
+import { ConcreteBuilder } from "./ConcreteBuilder.js";
+import { Director } from "./Director.js";
+const builder = new ConcreteBuilder();
+const director = new Director(builder);
+director.constructMinimal();
+console.log('Minimal product:', builder.getResult().listParts());
+director.constructFull();
+console.log('Full product:', builder.getResult().listParts());
+export { ConcreteBuilder } from "./ConcreteBuilder.js";
+export { Director } from "./Director.js";
+export { BuilderProduct } from "./BuilderProduct.js";
